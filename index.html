@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="evenMoreCss.css">
+    <title>Document</title>
+</head>
+<script>
+    function myfunction() {
+    var element = document.body;
+    element.classList.toggle("dark_mode");
+}
+</script>
+<body class="dark_mode">
+    <header>
+        <h1>Variabler og animasjon i CSS</h1>
+        <label class="switch">
+            <input type="checkbox" onclick="myfunction()">
+            <span class="slider"></span>
+        </label>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore qui facilis possimus quisquam suscipit ducimus quod ratione, consequuntur exercitationem maxime.</p>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
